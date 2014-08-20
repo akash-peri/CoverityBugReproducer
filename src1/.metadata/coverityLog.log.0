@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-08-19T15:19:09</date>
+  <millis>1408486749830</millis>
+  <sequence>11</sequence>
+  <logger>Coverity Logger</logger>
+  <level>FINER</level>
+  <class>com.coverity.desktop.Activator</class>
+  <method>start(line: 143)</method>
+  <thread>1</thread>
+  <message>log file directory set to: /home/aperi/Downloads/Code/interBug/src1/.metadata/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-08-19T15:20:44</date>
+  <millis>1408486844931</millis>
+  <sequence>9</sequence>
+  <logger>Coverity Logger</logger>
+  <level>FINER</level>
+  <class>com.coverity.desktop.Activator</class>
+  <method>start(line: 143)</method>
+  <thread>1</thread>
+  <message>log file directory set to: /home/aperi/Downloads/Code/interBug/src1/.metadata/</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-08-19T15:21:44</date>
+  <millis>1408486904444</millis>
+  <sequence>9</sequence>
+  <logger>Coverity Logger</logger>
+  <level>FINER</level>
+  <class>com.coverity.desktop.Activator</class>
+  <method>start(line: 143)</method>
+  <thread>1</thread>
+  <message>log file directory set to: /home/aperi/Downloads/Code/interBug/src1/.metadata/</message>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939150</millis>
+  <sequence>10</sequence>
+  <logger>Coverity Logger</logger>
+  <level>FINE</level>
+  <class>com.coverity.desktop.model.cim.CimServer</class>
+  <method>getConfigurationService(line: 215)</method>
+  <thread>1</thread>
+  <message>Invalid Settings: host:  -- userName: aperi -- authenticationStyle: PASSWORD -- authenticationKeyFilePath:  -- authenticationKeyUser: null -- userNameForWebServices: aperi -- passwordSet: password is expected value</message>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939176</millis>
+  <sequence>11</sequence>
+  <logger>Coverity Logger</logger>
+  <level>SEVERE</level>
+  <class>com.coverity.desktop.ui.views.defects.DefectsPresenter</class>
+  <method>loadSavedPreferences(line: 938)</method>
+  <thread>1</thread>
+  <message>CIM settings are invalid.</message>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939194</millis>
+  <sequence>12</sequence>
+  <logger>Coverity Logger</logger>
+  <level>SEVERE</level>
+  <class>com.coverity.desktop.ui.views.defects.DefectsPresenter</class>
+  <method>loadSavedPreferences(line: 938)</method>
+  <thread>1</thread>
+  <message>CIM settings are invalid.</message>
+  <param>com.coverity.desktop.model.cim.CimServer.ensureSettingsAreValid(CimServer.java:337)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.getConfigurationService(CimServer.java:215)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.loadTriageValuesImpl(CimServer.java:374)</param>
+  <param>com.coverity.desktop.model.cim.CimServer$1.call(CimServer.java:346)</param>
+  <param>com.coverity.desktop.model.cim.CimUtils.safeExecuteImpl(CimUtils.java:180)</param>
+  <param>com.coverity.desktop.model.cim.CimUtils.safeExecute(CimUtils.java:163)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.loadTriageValues(CimServer.java:344)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.internalEnsureTriageValuesLoaded(CimServer.java:470)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.ensureTriageValuesLoaded(CimServer.java:464)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.updateTriageAttributes(DefectsPresenter.java:142)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.loadSavedPreferences(DefectsPresenter.java:938)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.populateView(DefectsPresenter.java:610)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.&lt;init&gt;(DefectsPresenter.java:434)</param>
+  <param>com.coverity.desktop.ui.views.defects.ui.DefectsViewPart.createPartControl(DefectsViewPart.java:61)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:140)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:321)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)</param>
+  <param>org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:547)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1251)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:66)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)</param>
+  <param>org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)</param>
+  <param>org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)</param>
+  <param>org.eclipse.swt.widgets.Display.syncExec(Display.java:4622)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)</param>
+  <param>org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)</param>
+  <param>org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:66)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)</param>
+  <param>org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)</param>
+  <param>org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)</param>
+  <param>org.eclipse.swt.widgets.Display.syncExec(Display.java:4622)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)</param>
+  <param>org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)</param>
+  <param>org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)</param>
+  <param>org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3995)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.openPerspective(ShowPerspectiveHandler.java:147)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.openOther(ShowPerspectiveHandler.java:119)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.execute(ShowPerspectiveHandler.java:58)</param>
+  <param>org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)</param>
+  <param>org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)</param>
+  <param>org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:149)</param>
+  <param>org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)</param>
+  <param>org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:196)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.selectPerspective(PerspectiveSwitcher.java:661)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.access$7(PerspectiveSwitcher.java:657)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$11.widgetSelected(PerspectiveSwitcher.java:417)</param>
+  <param>org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)</param>
+  <param>org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)</param>
+  <param>org.eclipse.swt.widgets.Display.sendEvent(Display.java:4486)</param>
+  <param>org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)</param>
+  <param>org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3831)</param>
+  <param>org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3441)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)</param>
+  <param>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)</param>
+  <param>org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)</param>
+  <param>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)</param>
+  <param>org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)</param>
+  <param>org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)</param>
+  <param>org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)</param>
+  <param>org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</param>
+  <param>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</param>
+  <param>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</param>
+  <param>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)</param>
+  <param>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)</param>
+  <param>org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)</param>
+  <param>org.eclipse.equinox.launcher.Main.run(Main.java:1465)</param>
+  <param>org.eclipse.equinox.launcher.Main.main(Main.java:1438)</param>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939273</millis>
+  <sequence>13</sequence>
+  <logger>Coverity Logger</logger>
+  <level>FINE</level>
+  <class>com.coverity.desktop.model.cim.CimServer</class>
+  <method>getConfigurationService(line: 215)</method>
+  <thread>1</thread>
+  <message>Invalid Settings: host:  -- userName: aperi -- authenticationStyle: PASSWORD -- authenticationKeyFilePath:  -- authenticationKeyUser: null -- userNameForWebServices: aperi -- passwordSet: password is expected value</message>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939291</millis>
+  <sequence>14</sequence>
+  <logger>Coverity Logger</logger>
+  <level>SEVERE</level>
+  <class>com.coverity.desktop.ui.views.defects.DefectsPresenter</class>
+  <method>populateView(line: 611)</method>
+  <thread>1</thread>
+  <message>CIM settings are invalid.</message>
+</record>
+<record>
+  <date>2014-08-19T15:22:19</date>
+  <millis>1408486939292</millis>
+  <sequence>15</sequence>
+  <logger>Coverity Logger</logger>
+  <level>SEVERE</level>
+  <class>com.coverity.desktop.ui.views.defects.DefectsPresenter</class>
+  <method>populateView(line: 611)</method>
+  <thread>1</thread>
+  <message>CIM settings are invalid.</message>
+  <param>com.coverity.desktop.model.cim.CimServer.ensureSettingsAreValid(CimServer.java:337)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.getConfigurationService(CimServer.java:215)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.loadTriageValuesImpl(CimServer.java:374)</param>
+  <param>com.coverity.desktop.model.cim.CimServer$1.call(CimServer.java:346)</param>
+  <param>com.coverity.desktop.model.cim.CimUtils.safeExecuteImpl(CimUtils.java:180)</param>
+  <param>com.coverity.desktop.model.cim.CimUtils.safeExecute(CimUtils.java:163)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.loadTriageValues(CimServer.java:344)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.internalEnsureTriageValuesLoaded(CimServer.java:470)</param>
+  <param>com.coverity.desktop.model.cim.CimServer.ensureTriageValuesLoaded(CimServer.java:464)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.updateTriageAttributes(DefectsPresenter.java:142)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.populateView(DefectsPresenter.java:611)</param>
+  <param>com.coverity.desktop.ui.views.defects.DefectsPresenter.&lt;init&gt;(DefectsPresenter.java:434)</param>
+  <param>com.coverity.desktop.ui.views.defects.ui.DefectsViewPart.createPartControl(DefectsViewPart.java:61)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:140)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:155)</param>
+  <param>org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:321)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)</param>
+  <param>org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$6.run(PartRenderingEngine.java:547)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:531)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:69)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1251)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:66)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)</param>
+  <param>org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)</param>
+  <param>org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)</param>
+  <param>org.eclipse.swt.widgets.Display.syncExec(Display.java:4622)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)</param>
+  <param>org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)</param>
+  <param>org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:678)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:185)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:68)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:674)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)</param>
+  <param>org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:103)</param>
+  <param>org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:66)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)</param>
+  <param>org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)</param>
+  <param>org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)</param>
+  <param>org.eclipse.swt.widgets.Display.syncExec(Display.java:4622)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)</param>
+  <param>org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)</param>
+  <param>org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)</param>
+  <param>org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)</param>
+  <param>org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)</param>
+  <param>org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)</param>
+  <param>org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:135)</param>
+  <param>org.eclipse.e4.ui.model.application.ui.advanced.impl.PerspectiveStackImpl.setSelectedElement(PerspectiveStackImpl.java:1)</param>
+  <param>org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3995)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.openPerspective(ShowPerspectiveHandler.java:147)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.openOther(ShowPerspectiveHandler.java:119)</param>
+  <param>org.eclipse.ui.handlers.ShowPerspectiveHandler.execute(ShowPerspectiveHandler.java:58)</param>
+  <param>org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)</param>
+  <param>org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:247)</param>
+  <param>org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)</param>
+  <param>org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:149)</param>
+  <param>org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)</param>
+  <param>org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)</param>
+  <param>org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:196)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.selectPerspective(PerspectiveSwitcher.java:661)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher.access$7(PerspectiveSwitcher.java:657)</param>
+  <param>org.eclipse.e4.ui.workbench.addons.perspectiveswitcher.PerspectiveSwitcher$11.widgetSelected(PerspectiveSwitcher.java:417)</param>
+  <param>org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)</param>
+  <param>org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)</param>
+  <param>org.eclipse.swt.widgets.Display.sendEvent(Display.java:4486)</param>
+  <param>org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)</param>
+  <param>org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3831)</param>
+  <param>org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3441)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)</param>
+  <param>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)</param>
+  <param>org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)</param>
+  <param>org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)</param>
+  <param>org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)</param>
+  <param>org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)</param>
+  <param>org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)</param>
+  <param>org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)</param>
+  <param>org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)</param>
+  <param>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)</param>
+  <param>org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)</param>
+  <param>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:382)</param>
+  <param>org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:236)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</param>
+  <param>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</param>
+  <param>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</param>
+  <param>java.lang.reflect.Method.invoke(Method.java:606)</param>
+  <param>org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)</param>
+  <param>org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)</param>
+  <param>org.eclipse.equinox.launcher.Main.run(Main.java:1465)</param>
+  <param>org.eclipse.equinox.launcher.Main.main(Main.java:1438)</param>
+</record>
+</log>

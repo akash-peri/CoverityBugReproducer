@@ -1,0 +1,6 @@
+all: 
+	gcc -c test.c test2.c -o test.out
+	
+clean: 
+	rm -rf test.out
+	

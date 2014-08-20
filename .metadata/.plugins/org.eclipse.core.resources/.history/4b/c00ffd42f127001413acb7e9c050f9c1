@@ -1,0 +1,68 @@
+cmdline: command line: cov-analyze --dir idir 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "config", args: [ "/home/aperi/cov-analysis-linux64-7.5.0/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=61870
+startup: detected platform: Linux 3.13.0-32-generic x86_64
+startup: target platform: linux64
+startup: Detected 1 cpu cores
+startup: host name: ubuntu
+startup: user name: aperi
+startup: Analysis version: gilroy1 (30f9d8c05c p-gilroy1-push-19219.525.224)
+startup: temp directory: /tmp/cov-aperi/f71715025ac345eb601c3934c84b4e19
+startup: enable_constraint_fpp=0
+startup: current time: 2014-Aug-19 15:28:01
+startup: Detected amount of memory: 4040976kb
+startup: Limiting memory to 3636878kb
+wlink: Skipping web-app linking, no archives
+emitdb: callgraph.cpp:2056 11111111
+emitdb: callgraph.cpp:2077 11000011
+emitdb: callgraph.cpp:2098 11000011
+rta: Not running RTA because it doesn't apply to current languages
+emitdb: callgraph.cpp:2102 11000000
+general: Starting analysis
+dm-access-lib: AM listening for DM at 127.0.0.1:48846
+dm-access-lib: AM starting DM with command line: /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-internal-dm --AM-port 48846 --log-file /home/aperi/Downloads/Code/interBug/src2/idir/output/distributor.log -j 1 --AW-timeout 36000 /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-analyze --worker
+dm-access-lib: DM started: dm_pid=61872
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:48846 - 127.0.0.1:38129 (remote)
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: stat0 1 6366 33 478 3 mem=5943296 max=33193984 28 nr=16 n: batch 0
+wur: gen1 1 1393 14 108 2 1 n: cond in TU 1
+wur: gen2 1 1395 2 108 0 1 n: some_func in TU 1
+wur: gen8 1 2631 7 563 6 7 n: paths in TU 1
+wur: gen14 1 2041 3 293 2 4 n: uninit in TU 1
+wur: gen7 1 1523 3 71 3 4 n: overrun_static in TU 1
+wur: gen10 1 2082 7 468 7 9 n: resource_leak_2 in TU 1
+wur: gen6 1 2593 4 298 2 9 n: negative_returns in TU 1
+wur: gen3 1 1710 3 71 3 3 n: dead_code in TU 1
+wur: gen0 1 2613 2 71 2 2 n: buffer_size in TU 1
+wur: gen11 1 1743 1 262 1 2 n: reverse_negative in TU 1
+wur: gen4 1 1695 3 109 2 2 n: divide_by_zero in TU 1
+wur: gen9 1 2041 1 294 1 4 n: resource_leak in TU 1
+wur: gen5 1 1467 3 234 3 1 n: forward_null in TU 1
+wur: gen12 1 1499 2 580 0 2 n: reverse_null in TU 1
+wur: gen15 1 2300 2 71 2 4 n: use_after_free in TU 1
+wur: gen13 1 2077 1 495 0 4 n: size_check in TU 1
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 1
+summary: Total LoC input to cov-analyze : 10269
+summary: Functions analyzed             : 16
+summary: Paths analyzed                 : 59
+summary: Time taken by analysis         : 00:00:00
+summary: Defect occurrences found       : 13 Total
+summary:                                   1 FORWARD_NULL
+summary:                                   1 NEGATIVE_RETURNS
+summary:                                   8 RESOURCE_LEAK
+summary:                                   1 REVERSE_INULL
+summary:                                   1 REVERSE_NEGATIVE
+summary:                                   1 SIZEOF_MISMATCH
+summary: 
+summary: Number of functions: 16
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+mem: AM peak mem bytes: 44531712
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

@@ -1,0 +1,18 @@
+/*
+ * test2.cpp
+ *
+ *  Created on: Aug 19, 2014
+ *      Author: aperi
+ */
+
+#include "test2.h"
+
+test2::test2() {
+	// TODO Auto-generated constructor stub
+
+}
+
+test2::~test2() {
+	// TODO Auto-generated destructor stub
+}
+

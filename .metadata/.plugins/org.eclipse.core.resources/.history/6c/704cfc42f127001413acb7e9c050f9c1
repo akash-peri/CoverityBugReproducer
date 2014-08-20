@@ -1,0 +1,21 @@
+<error>
+<domain>STATIC_C</domain>
+<checker>FORWARD_NULL</checker>
+<file>/home/aperi/Downloads/Code/interBug/src2/test.c</file>
+<function>forward_null</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>assign_zero</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{p}}}{}{{code{NULL}}}}}}</description>
+<line>19</line>
+</event>
+<event>
+<main>true</main>
+<tag>var_deref_op</tag>
+<description>{CovLStrv2{{t{Dereferencing null pointer {0}.}{{code{p}}}}}}</description>
+<line>20</line>
+</event>
+<extra>p</extra>
+<subcategory>deref_constant_null</subcategory>
+</error>

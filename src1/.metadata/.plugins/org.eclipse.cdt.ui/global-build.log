@@ -1,0 +1,79 @@
+15:24:18 **** Build of configuration Debug for project sdfg ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.C
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.d" -MT".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.d" -o ".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o" "../.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.C"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.C
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘size_check’:
+../test.c:55:27: warning: variable ‘p’ set but not used [-Wunused-but-set-variable]
+Finished building: ../test.c
+ 
+Building target: sdfg
+Invoking: GCC C++ Linker
+g++  -o "sdfg"  ./.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./test.o   
+   struct bigger_than_ptr *p;
+                           ^
+../test.c: In function ‘reverse_negative’:
+../test.c:84:8: warning: variable ‘buf’ set but not used [-Wunused-but-set-variable]
+   char buf[10];
+        ^
+../test.c: In function ‘overrun_static’:
+../test.c:119:8: warning: variable ‘buf’ set but not used [-Wunused-but-set-variable]
+   char buf[10];
+        ^
+../test.c: In function ‘paths’:
+../test.c:135:3: warning: implicit declaration of function ‘some_other_function’ [-Wimplicit-function-declaration]
+   if (!some_other_function()) {
+   ^
+../test.c:140:3: warning: implicit declaration of function ‘yet_another_function’ [-Wimplicit-function-declaration]
+   if (!yet_another_function()) {
+   ^
+../test.c:144:3: warning: implicit declaration of function ‘do_some_things’ [-Wimplicit-function-declaration]
+   do_some_things(p);
+   ^
+../test.c: In function ‘uninit’:
+../test.c:93:6: warning: ‘p’ is used uninitialized in this function [-Wuninitialized]
+   *p = 'a';
+      ^
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+./test.o: In function `dead_code':
+/home/aperi/Downloads/Code/interBug/src1/sdfg/Debug/../test.c:63: undefined reference to `some_func'
+./test.o: In function `reverse_negative':
+/home/aperi/Downloads/Code/interBug/src1/sdfg/Debug/../test.c:83: undefined reference to `some_func'
+./test.o: In function `paths':
+/home/aperi/Downloads/Code/interBug/src1/sdfg/Debug/../test.c:135: undefined reference to `some_other_function'
+/home/aperi/Downloads/Code/interBug/src1/sdfg/Debug/../test.c:140: undefined reference to `yet_another_function'
+/home/aperi/Downloads/Code/interBug/src1/sdfg/Debug/../test.c:144: undefined reference to `do_some_things'
+collect2: error: ld returned 1 exit status
+make: *** [sdfg] Error 1

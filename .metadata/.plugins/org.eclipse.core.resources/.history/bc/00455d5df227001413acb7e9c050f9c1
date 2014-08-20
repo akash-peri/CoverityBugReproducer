@@ -1,0 +1,6 @@
+all: 
+	g++ test.c test2.cpp -o test.out
+	
+clean: 
+	rm -rf test.out
+	

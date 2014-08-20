@@ -1,0 +1,24 @@
+[LOG] run: /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-format-errors --dir /home/aperi/Downloads/Code/interBug/src2/idir --json-output-v2 /home/aperi/Downloads/Code/interBug/src2/idir/output/cov-blame/errors.json
+[LOG] /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-format-errors exits successfully.
+[INFO] Computing likely owner for 10394 [761d339ec1f7959ef68bb0f0c3f9729f]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10402 [2210bffae20b073ebfcb7a6308527fb3]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10400 [11c3cb9fa935bbe4f9737d3368854706]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10399 [45b5715d701063193fb10680d810ff25]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10398 [194dd252d8f88c47a40d0ec8dddc1cad]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10404 [9e98f8afc3f3fe176a7ce62a1e88dc2d]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10401 [4922488acedf9724d568d0e7691a61a9]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10395 [892baaf3d494e0637ad2bcf5b03e08fa]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10403 [5dc5dfb28002da6e97e4d9a6122d7142]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10407 [2dd112556487a38b24b9b53f5db87008]:
+[INFO] 	default_component_owner: none
+[INFO] Computing likely owner for 10397 [6ef6cf3e3cace2552151ccb07d2f9958]:
+[INFO] 	default_component_owner: none

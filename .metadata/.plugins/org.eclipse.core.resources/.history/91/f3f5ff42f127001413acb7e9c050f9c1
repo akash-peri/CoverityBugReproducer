@@ -1,0 +1,16 @@
+cov-analyze --dir idir 
+Analysis summary report:
+------------------------
+Files analyzed                 : 1
+Total LoC input to cov-analyze : 10269
+Functions analyzed             : 16
+Paths analyzed                 : 59
+Time taken by analysis         : 00:00:00
+Defect occurrences found       : 13 Total
+                                  1 FORWARD_NULL
+                                  1 NEGATIVE_RETURNS
+                                  8 RESOURCE_LEAK
+                                  1 REVERSE_INULL
+                                  1 REVERSE_NEGATIVE
+                                  1 SIZEOF_MISMATCH
+

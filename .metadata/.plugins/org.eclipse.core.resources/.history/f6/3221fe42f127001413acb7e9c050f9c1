@@ -1,0 +1,30 @@
+1408487281.396: DM started: dm_pid=61872
+1408487281.396: DM command line: /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-internal-dm --AM-port 48846 --log-file /home/aperi/Downloads/Code/interBug/src2/idir/output/distributor.log -j 1 --AW-timeout 36000 /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-analyze --worker
+1408487281.396: Connecting to AM at 127.0.0.1:48846
+1408487281.396: Connected to AM: (local) 127.0.0.1:38129 - 127.0.0.1:48846 (remote)
+1408487281.396: Listening for DWs at 127.0.0.1:50376
+1408487281.396: Starting DW 1 with command line: /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-internal-dw --DM-port 50376 --DW-id 1
+1408487281.396: DW 1 started: dw_pid=61874
+1408487281.396: DW 1 log: 1408487281.403: Connecting to DM on 127.0.0.1:50376
+1408487281.396: Received a connection from a DW: 127.0.0.1:50799
+1408487281.403: DW 1 log: 1408487281.403: Connected to the DM: (local) 127.0.0.1:50799 - 127.0.0.1:50376 (remote)
+1408487281.403: DW 1 log: 1408487281.403: Sending DWDM_INIT: dw_id=1, benchmark=0
+1408487281.403: Received DWDM_INIT: dw_id=1, benchmark=0
+1408487281.403: Stopping to listen for new DWs
+1408487281.403: Sending DMDW_INIT to DW 1: aw_command_line=["/home/aperi/cov-analysis-linux64-7.5.0/bin/cov-analyze","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1408487281.403: DW 1 log: 1408487281.403: Received DMDW_INIT: aw_command_line=["/home/aperi/cov-analysis-linux64-7.5.0/bin/cov-analyze","--worker"], aw_image=(empty), awFaults=[], awTimeoutSeconds=36000
+1408487281.403: DW 1 log: 1408487281.403: Started listening for AW at 127.0.0.1:50846
+1408487281.403: DW 1 log: 1408487281.403: Starting AW with command line (COVERITY_DW_PORT=50846): /home/aperi/cov-analysis-linux64-7.5.0/bin/cov-analyze --worker
+1408487281.403: DW 1 log: 1408487281.403: AW started: aw_pid=61876
+1408487281.408: DW 1 log: 1408487281.408: DW 1 received connection from AW: (local) 127.0.0.1:50846 - 127.0.0.1:41396 (remote)
+1408487281.503: AM closed the connection, DM shutting down
+1408487281.503: Disconnecting DW 1
+1408487281.503: DW 1 log: 1408487281.503: DW 1: the DM closed the connection, DW shutting down
+1408487281.503: DW 1 log: 1408487281.503: DW 1 summary: aw_starts=1, wurs_sent=17, total_awms=39, total_dwms=91
+1408487281.503: DW 1 log: 1408487281.503: Disconnecting AW
+1408487281.507: DW 1 log: 1408487281.507: AW exited with code 0
+1408487281.507: DW 1 log: AW peak mem bytes: 33705984
+1408487281.509: DW 1 exited with code 0
+1408487281.509: dm-summary: elapsed_time_ms=113, am_to_dm_wus=17, dm_to_am_wurs=17
+1408487281.509: dw-summary: dw_id=1, state=inactive, wus_outstanding=0, wus_sent=17, wurs_received=17, active_ms=96, idle_ms=1
+1408487281.509: DM exiting with code 0

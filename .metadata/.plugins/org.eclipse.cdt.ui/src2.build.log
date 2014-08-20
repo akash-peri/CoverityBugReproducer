@@ -1,0 +1,6 @@
+15:38:26 **** Clean-only build of configuration Default for project src2 ****
+make clean 
+rm -rf test.out
+
+15:38:26 Build Finished (took 73ms)
+

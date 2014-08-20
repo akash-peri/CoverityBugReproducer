@@ -1,0 +1,26 @@
+<error>
+<domain>STATIC_C</domain>
+<checker>NEGATIVE_RETURNS</checker>
+<file>/home/aperi/Downloads/Code/interBug/src2/test.c</file>
+<function>negative_returns</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>negative_return_fn</tag>
+<description>{CovLStrv2{{t{Function {0} returns a negative number.}{{code{read(1, buf, 8)}}}}}}</description>
+<line>80</line>
+</event>
+<event>
+<tag>var_assign</tag>
+<description>{CovLStrv2{{t{Assigning: signed variable {0} = {1}.}{{code{j}}}{{code{read}}}}}}</description>
+<line>80</line>
+</event>
+<event>
+<main>true</main>
+<tag>negative_returns</tag>
+<description>{CovLStrv2{{t{Using variable {0} as an index to array {1}.}{{code{j}}}{{code{buf}}}}}}</description>
+<line>81</line>
+</event>
+<extra>read</extra>
+<subcategory>array_index_write</subcategory>
+</error>

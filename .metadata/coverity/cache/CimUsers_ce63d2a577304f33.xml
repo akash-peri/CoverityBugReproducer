@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?><com.coverity.desktop.model.cim.cache.CimUsersCacheRecord>
+  <cacheKey>
+    <serverName>amaria</serverName>
+    <cimUsername>admin</cimUsername>
+    <pluginVersion>eclipse-gilroy1-push-3238.73.115</pluginVersion>
+    <cimVersion>20de050 im-gilroy1-push-11391.150.322</cimVersion>
+    <userLocale>en_US</userLocale>
+  </cacheKey>
+  <schemaVersion>2</schemaVersion>
+  <lastUpdateTimestamp>
+    <iMillis>1408377889797</iMillis>
+    <iChronology class="org.joda.time.chrono.GregorianChronology" serialization="custom">
+      <unserializable-parents/>
+      <org.joda.time.chrono.AssembledChronology>
+        <default>
+          <iBase class="org.joda.time.chrono.ZonedChronology" serialization="custom">
+            <unserializable-parents/>
+            <org.joda.time.chrono.AssembledChronology>
+              <default>
+                <iBase class="org.joda.time.chrono.GregorianChronology" serialization="custom">
+                  <unserializable-parents/>
+                  <org.joda.time.chrono.AssembledChronology>
+                    <default/>
+                  </org.joda.time.chrono.AssembledChronology>
+                  <org.joda.time.chrono.BasicChronology>
+                    <default>
+                      <iMinDaysInFirstWeek>4</iMinDaysInFirstWeek>
+                    </default>
+                  </org.joda.time.chrono.BasicChronology>
+                </iBase>
+                <iParam class="org.joda.time.tz.FixedDateTimeZone" resolves-to="org.joda.time.DateTimeZone$Stub" serialization="custom">
+                  <org.joda.time.DateTimeZone_-Stub>
+                    <string>-07:00</string>
+                  </org.joda.time.DateTimeZone_-Stub>
+                </iParam>
+              </default>
+            </org.joda.time.chrono.AssembledChronology>
+          </iBase>
+        </default>
+      </org.joda.time.chrono.AssembledChronology>
+      <org.joda.time.chrono.BasicChronology>
+        <default>
+          <iMinDaysInFirstWeek>4</iMinDaysInFirstWeek>
+        </default>
+      </org.joda.time.chrono.BasicChronology>
+    </iChronology>
+  </lastUpdateTimestamp>
+  <cimUsers>
+    <com.coverity.desktop.model.cim.CimUser>
+      <userName>admin</userName>
+      <familyName>User</familyName>
+      <givenName>Admin</givenName>
+      <disabled>false</disabled>
+    </com.coverity.desktop.model.cim.CimUser>
+    <com.coverity.desktop.model.cim.CimUser>
+      <userName>reporter</userName>
+      <familyName>User</familyName>
+      <givenName>Reporter</givenName>
+      <disabled>false</disabled>
+    </com.coverity.desktop.model.cim.CimUser>
+  </cimUsers>
+</com.coverity.desktop.model.cim.cache.CimUsersCacheRecord>
